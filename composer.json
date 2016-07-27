@@ -1,7 +1,7 @@
 {
     "name": "hindy/http",
     "homepage": "https://github.com/hashstudio/Mindy_Http",
-    "version": "0.2.2.1",
+    "version": "0.2.2.2",
     "license": "MIT",
     "autoload": {
         "psr-4": {

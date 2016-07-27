@@ -64,7 +64,7 @@ class Cookie
 
         $data = session_get_cookie_params();
         $data['httpOnly'] = $data['httponly'];
-        $data['expire'] = $data['lifetime'];
+        $data['expire'] = time() + $data['lifetime'];
         unset($data['lifetime'], $data['httponly']);
         $this->configure(array_merge($data, $options));
     }
